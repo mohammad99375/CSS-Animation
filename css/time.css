@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    margin-top: 10px;
+}
+
+.h-wraper {
+    height: 80px;
+    width: 1200px;
+    background-color: #298CE1;
+    margin: 0px auto;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+.logo a{}
+.logo a img{
+    width: 80px;
+}
+
+.logo a img:hover{
+    width: 85px;
+}
+
+
+.menu {
+    position: absolute;
+    right: 350px;
+    top: 10px;
+}
+
+.menu ul{}
+.menu ul li{
+    list-style: none;
+    float: left;
+    margin: 5px;
+}
+.menu ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.menu ul li a:hover{
+    background-color: #02b9ca;
+    color: lightgoldenrodyellow;
+}
+
+.scearch{
+    position: absolute;
+    right: 20px;
+    top: 45px;
+}
+
+#scearch-box{
+    height: 20px;
+    width: 200px;
+}
+
+#scearch{
+    padding: 4px;
+    background-color: #00cFFF;
+    border: 0px;
+}
+
+#scearch:hover{
+    background-color: aqua;
+}
+
+
+
+.body {
+    height: 850px;
+    margin-top: 10px;
+}
+
+.b-wraper {
+    width: 1200px;
+    position: relative;
+    margin: 0px auto;
+}
+
+.contant {
+    position: absolute;
+    background-color: darkgray;;
+    width: 80%;
+    height: 850px;
+    right: 0px;
+}
+
+.title{}
+.title h1{
+    margin-top: 20px;
+    text-align: center;
+    color: #E0262C;
+    font-size: 50px;
+}
+
+.counter{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border: 8px;
+    box-shadow: 
+    0 0 0 10px hsl(0, 0%, 50%),
+    0 0 0 15px hsl(0, 0%, 60%),
+    0 0 0 20px hsl(0, 0%, 70%),
+    0 0 0 25px hsl(0, 0%, 80%),
+    0 0 0 30px hsl(0, 0%, 90%);
+    top: 60px;
+    left: 260px;
+    background-color: bisque;
+}
+
+.first-digit{
+    position: absolute;
+    top: -5px;
+    left: -45px;
+    animation-name: first;
+    animation-duration: 100s;
+    height: 300px;
+    width: 300px;
+    animation-timing-function: step-start;
+    animation-delay: 1s;
+}
+@keyframes first{
+    10%{background-image: url(../image/09.png);}   
+    20%{background-image: url(../image/08.png);}    
+    30%{background-image: url(../image/07.png);}
+    40%{background-image: url(../image/06.png);}
+    50%{background-image: url(../image/05.png);}
+    60%{background-image: url(../image/04.png);}
+    70%{background-image: url(../image/03.png);}
+    80%{background-image: url(../image/02.png);}
+    90%{background-image: url(../image/01.png);}
+    100%{background-image: url(../image/00.png);}
+    
+}
+
+.seccound-digit{
+    position: absolute;
+    top: -5px;
+    left: 145px;
+    height: 300px;
+    width: 300px;
+    animation-name: seccound;
+    animation-duration: 10s;
+    animation-timing-function: step-start;
+    animation-iteration-count: 10;
+    animation-delay: 1s;
+}
+@keyframes seccound{
+    10%{background-image: url(../image/09.png);}   
+    20%{background-image: url(../image/08.png);}    
+    30%{background-image: url(../image/07.png);}
+    40%{background-image: url(../image/06.png);}
+    50%{background-image: url(../image/05.png);}
+    60%{background-image: url(../image/04.png);}
+    70%{background-image: url(../image/03.png);}
+    80%{background-image: url(../image/02.png);}
+    90%{background-image: url(../image/01.png);}
+    100%{background-image: url(../image/00.png);}
+    
+}
+
+.start{
+    position: absolute;
+    top: 530px;
+    left: 315px;
+}
+.start a{
+    color: #48C6EA;
+    background-color: gray;
+    padding: 10px 20px;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 100px;
+}
+.start a:hover{
+    color: #ff0000;
+}
+
+
+.side-bar {
+    position: absolute;
+    background-color: gray;
+    width: 20%;
+    height: 850px;
+}
+
+.side-bar h2{
+    color: #298CE1;
+    background-color: #655565;
+    text-align: center;
+    padding: 5px;
+}
+
+.social-link ul{
+    margin-top: 10px;
+}
+.social-link ul li{
+    list-style: none;
+    padding: 10px;
+}
+.social-link ul li a{}
+.social-link ul li a img{
+    width: 50px;
+}
+
+.social-link ul li a img:hover{
+    width: 60px;
+    transition: 0.35s;
+}
+
+.footer {
+    margin-top: 10px;
+}
+
+.f-wraper {
+    margin: 0px auto;
+    background-color: black;
+    height: 40px;
+    width: 1200px;
+}
+
+.f-wraper p{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
